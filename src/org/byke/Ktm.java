@@ -11,6 +11,10 @@ public class Ktm implements Bike{
 	public void speed() {
 		System.out.println("100km/hr");
 	}
+	@Override
+	public void colour() {
+System.out.println("Red");
+	}
 public static void main(String[] args) {
 	Ktm k0 = new Ktm();
 	k0.cost();
